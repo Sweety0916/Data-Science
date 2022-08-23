@@ -1,0 +1,45 @@
+to analyse the dataa to certain plain if the patern may be form difficult if data form row formate thus to over come this data visulation come into 
+play it provides good fictorial representation of the data which make its easy to undersatnd and analyse
+
+
+
+
+************************
+ MULTIDIMENSIONAL ARRAY
+we cannot write 2-d array in heap as new int[n][m]
+array of integer pointer
+
+for storing arry in pointer in heap we use syntax
+int *p=new int[n]
+
+and for storing an 2-d array of integer pointer in heap 
+
+int **p=new int *[n]
+
+************************
+int **p=new int*[n];
+for(init i=0;i<n;i++){
+p[i]=new int[m];
+for(int j=0;j<m;j++){
+cin>>p[i][j];}
+}
+for(int i=0;i<n;i++){
+delete [] p[i];// whenever we are using new in heap we have to use 
+// delete keyword  }
+}
+delete [] p;// builtin type to  dlt array
+
+* in heap we can store int and int array also
+
+we use keyword
+
+
+
+
+
+
+
+
+
+
+in order and pre order            
